@@ -135,7 +135,7 @@ export default function Page() {
   return (
     <main style={{ minHeight: "100vh", background: "#f3f4f6", padding: 24 }}>
       <div style={{ maxWidth: 1200, margin: "0 auto" }}>
-        <h1 style={{ fontSize: 26, fontWeight: 600 }}>Email Cadence</h1>
+        <h1 style={{ fontSize: 26, fontWeight: 600,color: "black" }}>Email Cadence</h1>
         <p style={{ color: "#555", marginBottom: 16 }}>
           Manage cadence JSON, enroll contacts, and update running workflows.
         </p>
@@ -266,6 +266,7 @@ const btn: React.CSSProperties = {
   border: "1px solid #ccc",
   background: "#080808",
   cursor: "pointer",
+  color:"white"
 };
 
 const btnDark: React.CSSProperties = {
